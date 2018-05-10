@@ -19,7 +19,7 @@ h1 {
 	display: grid;
 	gride-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap:1vh;
-	border: 5px black solid;
+	border: 7px black solid;
 }
 .headerbody{
 	background-color: #BDC2E8;
