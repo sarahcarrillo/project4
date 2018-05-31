@@ -17,9 +17,9 @@ h1 {
 }
 .grid {
 	display: grid;
-	gride-template-columns: 1fr 1fr 1fr 1fr;
+	gride-template-columns: 1fr 1fr 1fr 1fr ;
 	grid-gap:1vh;
-	border: 7px black solid;
+	border:2px black solid;
 }
 .headerbody{
 	background-color: #BDC2E8;
@@ -33,13 +33,10 @@ h1 {
     padding: 10;
     overflow: hidden; 
 	background-color: white;
-}
+    float: left;
+	}
 ul{
 	list-style-type: none;
-}
-
-.navbar ul{
-    float: left;
 }
 
 ul a {
@@ -56,7 +53,7 @@ li a:hover {
 }
 
 h2{
-	font-size: 18px
+	font-size: 25px
 	
 }
 h3{
@@ -65,4 +62,10 @@ h3{
 
 li{ 
 font-size: 25px
+}
+h4{
+font-size:25px
+}
+h5{
+	font-size:30px
 }
